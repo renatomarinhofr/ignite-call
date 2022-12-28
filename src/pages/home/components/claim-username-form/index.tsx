@@ -1,6 +1,6 @@
-import { Button, TextInput } from "@ignite-ui/react";
-import * as S from "./styles";
-import { ArrowRight } from "phosphor-react";
+import { Button, TextInput } from '@ignite-ui/react'
+import * as S from './styles'
+import { ArrowRight } from 'phosphor-react'
 
 export function ClaimUsernameForm() {
   return (
@@ -11,5 +11,5 @@ export function ClaimUsernameForm() {
         <ArrowRight />
       </Button>
     </S.Form>
-  );
+  )
 }
